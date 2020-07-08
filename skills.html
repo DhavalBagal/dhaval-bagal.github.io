@@ -1514,6 +1514,10 @@
                 }
                 i += 1;
             }, 50);
+            for (var j = 0; j < elems.length; j++) 
+            {
+                elems[j].innerText = numStrings[j];
+            }
             };
 
             displayScores = function (callback) {
