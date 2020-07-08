@@ -1555,7 +1555,7 @@
                 }
                 }
                 if (i > max) {
-                for (var j = 0; j < scoreStrings.length; j++) {
+                for (var j = scoreStrings.length-1; j >=0; j--) {
                     elems[j].innerText = scoreStrings[j];
                 }
                 clearInterval(anim);
