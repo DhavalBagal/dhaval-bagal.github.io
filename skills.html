@@ -1514,11 +1514,13 @@
                 }
                 i += 1;
             }, 50);
-            for(var key in skills)
-            {
-                skill = skills[key]['score'];
-                elems[j].innerText = skill;
-            }
+            setTimeout(function(){
+                for(var key in skills)
+                {
+                    skill = skills[key]['score'];
+                    elems[j].innerText = skill;
+                }
+            },1500);
             };
 
             var skills;

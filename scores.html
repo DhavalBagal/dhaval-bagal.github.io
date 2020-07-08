@@ -1561,11 +1561,14 @@
                 }
                 i += 1;
             }, 50);
-            for(var key in scores)
-            {
-                score = scores[key]['score'];
-                elems[j].innerText = score;
-            }
+
+            setTimeout(function(){
+                for(var key in scores)
+                {
+                    score = scores[key]['score'];
+                    elems[j].innerText = score;
+                }
+            }, 1500);
             };
 
             var scores;
