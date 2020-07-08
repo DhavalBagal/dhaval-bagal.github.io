@@ -71,7 +71,7 @@ displayScores = function(callback)
 {
     var ip ='dhavalbagal.github.io';
 
-    $.getJSON("https://"+ip+"/data.json", function(data){
+    $.getJSON("http://"+ip+"/data.json", function(data){
         skills = data.skills;
         for (var key in skills) 
         {

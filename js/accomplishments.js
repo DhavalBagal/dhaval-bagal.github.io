@@ -140,7 +140,7 @@ displayPublications = function()
 {
     var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("https://"+ip+"/data.json", function(data){
+    $.getJSON("http://"+ip+"/data.json", function(data){
         pubs = data.publications;
         for (var key in pubs) 
         {
@@ -173,8 +173,7 @@ displayPatents = function()
 {
     var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("https://"+ip+"/data.json", function(data){
-        alert("https://"+ip+"/data.json");
+    $.getJSON("http://"+ip+"/data.json", function(data){
         patents = data.patents;
         for (var key in patents) 
         {
@@ -208,7 +207,7 @@ displayProjects = function()
 {
     var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("https://"+ip+"/data.json", function(data){
+    $.getJSON("http://"+ip+"/data.json", function(data){
         projects = data.projects;
         for (var key in projects) 
         {
@@ -270,7 +269,7 @@ displayAwards = function()
 {
     var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("https://"+ip+"/data.json", function(data){
+    $.getJSON("http://"+ip+"/data.json", function(data){
         awards = data.awards;
         for (var key in awards) 
         {
@@ -303,7 +302,7 @@ displayCertifications = function()
 {
     var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("https://"+ip+"/data.json", function(data){
+    $.getJSON("http://"+ip+"/data.json", function(data){
         certifications = data.certifications;
         for (var key in certifications) 
         {
