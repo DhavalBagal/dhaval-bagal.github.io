@@ -1541,7 +1541,9 @@
             }
 
             var i = 0,
-                anim;
+                anim, n;
+
+            n = scoreStrings.length;
 
             anim = setInterval(function () {
                 for (var j = 0; j < elems.length; j++) {
@@ -1555,8 +1557,8 @@
                 }
                 }
                 if (i > max) {
-                for (var j = scoreStrings.length-1; j >=0; j--) {
-                    elems[j].innerText = scoreStrings[j];
+                for (var j = 0; j < n; j++) {
+                    elems[j].innerText = scoreStrings[n-1-j];
                 }
                 clearInterval(anim);
                 }
