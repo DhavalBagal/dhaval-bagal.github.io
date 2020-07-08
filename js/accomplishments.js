@@ -174,6 +174,7 @@ displayPatents = function()
     var ip = 'dhavalbagal.github.io'
 
     $.getJSON("https://"+ip+"/data.json", function(data){
+        alert("https://"+ip+"/data.json");
         patents = data.patents;
         for (var key in patents) 
         {
