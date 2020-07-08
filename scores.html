@@ -1561,12 +1561,14 @@
                 }
                 i += 1;
             }, 50);
-            for (var j = 0; j < elems.length; j++) 
+            for(var key in scores)
             {
-                elems[j].innerText = numStrings[j];
+                score = scores[key]['score'];
+                elems[j].innerText = score;
             }
             };
 
+            var scores;
             displayScores = function (callback) {
             var ip = "dhavalbagal.github.io";
 

@@ -1514,12 +1514,14 @@
                 }
                 i += 1;
             }, 50);
-            for (var j = 0; j < elems.length; j++) 
+            for(var key in skills)
             {
-                elems[j].innerText = numStrings[j];
+                skill = skills[key]['score'];
+                elems[j].innerText = skill;
             }
             };
 
+            var skills;
             displayScores = function (callback) {
             var ip = location.host;
 
