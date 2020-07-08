@@ -69,9 +69,9 @@ animateScores = function()
 
 displayScores = function(callback)
 {
-    var ip = location.host;
+    var ip ='dhavalbagal.github.io'
 
-    $.getJSON("http://"+ip+"/data.json", function(data){
+    $.getJSON("https://"+ip+"/data.json", function(data){
         scores = data.scores;
         for (var key in scores) 
         {

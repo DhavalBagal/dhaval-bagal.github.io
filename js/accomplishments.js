@@ -138,9 +138,9 @@ expandHeading = function(target)
 
 displayPublications = function()
 {
-    var ip = location.host;
+    var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("http://"+ip+"/data.json", function(data){
+    $.getJSON("https://"+ip+"/data.json", function(data){
         pubs = data.publications;
         for (var key in pubs) 
         {
@@ -171,9 +171,9 @@ displayPublications = function()
 
 displayPatents = function()
 {
-    var ip = location.host;
+    var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("http://"+ip+"/data.json", function(data){
+    $.getJSON("https://"+ip+"/data.json", function(data){
         patents = data.patents;
         for (var key in patents) 
         {
@@ -205,9 +205,9 @@ displayPatents = function()
 
 displayProjects = function()
 {
-    var ip = location.host;
+    var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("http://"+ip+"/data.json", function(data){
+    $.getJSON("https://"+ip+"/data.json", function(data){
         projects = data.projects;
         for (var key in projects) 
         {
@@ -267,9 +267,9 @@ displayProjects = function()
 
 displayAwards = function()
 {
-    var ip = location.host;
+    var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("http://"+ip+"/data.json", function(data){
+    $.getJSON("https://"+ip+"/data.json", function(data){
         awards = data.awards;
         for (var key in awards) 
         {
@@ -300,9 +300,9 @@ displayAwards = function()
 
 displayCertifications = function()
 {
-    var ip = location.host;
+    var ip = 'dhavalbagal.github.io'
 
-    $.getJSON("http://"+ip+"/data.json", function(data){
+    $.getJSON("https://"+ip+"/data.json", function(data){
         certifications = data.certifications;
         for (var key in certifications) 
         {
