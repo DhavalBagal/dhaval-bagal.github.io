@@ -1507,20 +1507,13 @@
                 }
                 }
                 if (i > max) {
-                for (var j = 0; j < elems.length; j++) {
-                    elems[j].innerText = numStrings[j];
+                for (var j = 0; j < scoreStrings.length; j++) {
+                    elems[j].innerText = scoreStrings[j];
                 }
                 clearInterval(anim);
                 }
                 i += 1;
             }, 50);
-            setTimeout(function(){
-                for(var i=0; i<scoreStrings.length; i++)
-                {
-                    elems[i].innerText = scoreStrings[i];
-                }
-
-            },1000);
             };
 
             var skills, scoreStrings=[];

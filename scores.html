@@ -1554,24 +1554,16 @@
                 }
                 }
                 if (i > max) {
-                for (var j = 0; j < elems.length; j++) {
-                    elems[j].innerText = numStrings[j];
+                for (var j = 0; j < scoreStrings.length; j++) {
+                    elems[j].innerText = scoreStrings[j];
                 }
                 clearInterval(anim);
                 }
                 i += 1;
             }, 50);
-
-            setTimeout(function(){
-                for(var key in scores)
-                {
-                    score = scores[key]['score'];
-                    elems[j].innerText = score;
-                }
-            }, 1500);
             };
 
-            var scores;
+            var scores, scoreStrings=[];;
             displayScores = function (callback) {
             var ip = "dhavalbagal.github.io";
 
@@ -1579,6 +1571,7 @@
                 scores = data.scores;
                 for (var key in scores) {
                 score = scores[key];
+                scoreStrings.push(score['score']);
                 elem =
                     "<div class='row' style='justify-content: center; align-items: flex-start;' >\
                             <div class='score-figure-container col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4'>\
