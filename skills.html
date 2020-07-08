@@ -1515,16 +1515,15 @@
                 i += 1;
             }, 50);
             setTimeout(function(){
-                for(var key in skills)
+                for(var i=0; i<scoreStrings.length; i++)
                 {
-                    skill = skills[key]['score'];
-                    elems[j].innerText = skill;
+                    elems[i].innerText = scoreStrings[i];
                 }
-                alert("Testing!");
-            },2000);
+
+            },1000);
             };
 
-            var skills;
+            var skills, scoreStrings=[];
             displayScores = function (callback) {
             var ip = location.host;
 
@@ -1532,6 +1531,7 @@
                 skills = data.skills;
                 for (var key in skills) {
                 skill = skills[key];
+                scoreStrings.push(skill['score']);
                 elem =
                     "<div class='row' style='justify-content: center; align-items: center;' >\
                             <div class='skills-info-container col-xs-36 col-sm-36 col-md-36 col-lg-32 col-xl-32 col-xxl-28'>\
