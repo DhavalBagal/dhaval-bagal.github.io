@@ -36,8 +36,8 @@ function typeWriter() {
     },1600);
 
     setTimeout(function(){
-        $("#dhaval-logo-text").text('D h a v a');
-        $("#bagal-logo-text").text('B a g a l')
+        $("#dhaval-logo-text").text('D h a v a l');
+        $("#bagal-logo-text").text('B a g a l');
         $(".button").css('display','flex');
     },2500);
     
