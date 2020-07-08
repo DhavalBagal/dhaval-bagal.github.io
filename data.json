@@ -1,0 +1,362 @@
+{
+  "publications":
+  {
+    "pub-1":
+    {
+      "title":"Market Basket Analysis using Apriori Algorithm",
+      "publisher":"Medium",
+      "date":"Apr 2019",
+      "link":"https://medium.com/@dhavalbagal99/market-basket-analysis-using-apriori-algorithm-215fb308bd1c",
+      "description":"The article begins with the introduction of the traditional Market Basket Algorithm in Association Rule Mining. It then explains the python code written for an efficient version of this algorithm (Vertical Data Format) from scratch."
+    },
+
+    "pub-2":
+    {
+      "title":"Librany - A Face Recognition and QR Code Technology based Smart Library System",
+      "publisher":"IEEE",
+      "date":"Feb 2020",
+      "link":"https://ieeexplore.ieee.org/document/9002530",
+      "description":"A 'Just walk out technology' based Smart Library System that enjoins self-issue and self-return procedures along with the dynamic search feature providing the real-time location of the books."
+    },
+
+    "pub-3":
+    {
+      "title":"Building your own Neural Network from Scratch: Understanding the Complex Maths behind it",
+      "publisher":"Medium",
+      "date":"Apr 2020",
+      "link":"https://medium.com/@dhavalbagal99/building-your-own-neural-network-from-scratch-understanding-the-complex-maths-behind-it-89d0d9361196",
+      "description":"The article comprises of the theory behind Neural Networks and proceeds further to explain the implementation of the same using python."
+    },
+
+    "pub-4":
+    {
+      "title":"Noise removal after background subtraction",
+      "publisher":"IEEE",
+      "date":"N.A",
+      "link":"#",
+      "description":"Background subtraction is an extensively used approach for foreground detection in image sequences. It silhouettes the foreground elements against the background. This paper puts forward a novel approach which dispels the resulting noise appearing in the background-subtracted image, thereby making it resilient to illumination variance."
+    }
+  },
+
+  "patents":
+  {
+    "patent-1":
+    {
+      "title":"SYSTEM FOR AIDING VISUALLY IMPAIRED",
+      "ref-and-status":"202021016810, Pending",
+      "date":"Feb 2020",
+      "link":"#",
+      "description":"The invention relates to a system to aid the visually impaired in their daily chores. It comprises of two components viz a processing device and an interface unit. A mobile application serves as the interface unit while the processing device is a small single-board computer. The interface unit works on voice commands and screen taps in its entirety. The features provided by the system are currency identification and counting, basic text-reading, text-summarization (to get an essence of a long text), supermarket bill reading, color identification, and business card reading. However, the invention is not only proposed to be limited to these features but is open to addition of other features too."
+    }
+  },
+
+  "projects":
+  {
+    "proj-1":
+    {
+      "title":"Basic 8-bit Processor with 32KB RAM using Logicly Circuit Simulator",
+      "project-scale":"Mid-Level Project",
+      "date":"Mar 2017 – Apr 2017",
+      "link-to-code":"https://github.com/DhavalBagal/Basic_Processor",
+      "link-to-demo":"#",
+      "description":"A basic 8-bit processor capable of performing arithmetic and bitwise operations on two operands at a time is simulated using the Logicly Circuit Simulator. The processor uses a data bus of 8-bits, an address bus of 5-bits and a RAM of size 32KB. Apart from this, the processor makes use of two general-purpose registers A and B. The operands on which the operation is to be performed are first moved into the two general-purpose registers. The ALU fetches these operands from the registers and performs the desired operation."
+    },
+
+    "proj-2":
+    {
+      "title":"Android based Pothole Detection System",
+      "project-scale":"Mid-Level Project",
+      "date":"Oct 2018 – Feb 2019",
+      "link-to-code":"See project Android based Pothole Detection SystemSee project",
+      "link-to-demo":"#",
+      "description":"A system that lets users report potholes by clicking their pictures. The pictures are sent to the server wherein the dimensions of the potholes are calculated and stored. The application is also capable of displaying the real-time conditions of the roads."
+    },
+
+    "proj-3":
+    {
+      "title":"Face Recognition and QR Code Technology based Smart Library System",
+      "project-scale":"Major Project",
+      "date":"Feb 2019 – Apr 2019",
+      "link-to-code":"https://github.com/DhavalBagal/Librany-Smart_Library",
+      "link-to-demo":"#",
+      "description":"The system entails face recognition and QR code detection for self-issue/return of the books. It provides real-time location of the books just by using the feed from the cameras."
+    },
+
+    "proj-4":
+    {
+      "title":"Color based Object Segmentation",
+      "project-scale":"Minor Project",
+      "date":"Oct 2019 – Nov 2019",
+      "link-to-code":"https://github.com/DhavalBagal/Color-based-Object-Segmentation",
+      "link-to-demo":"#",
+      "description":"The project entails clustering using color features as a simple approach to object segmentation. The input image is divided into n clusters based on the RGB values of the pixels, where n is provided by the user. The dataset for clustering consists of 3 columns, each corresponding to the R, G and B values of the pixels respectively. Using K-means clustering, pixels with almost similar colors are grouped into the same cluster, thereby segmenting the image."
+    },
+
+    "proj-5":
+    {
+      "title":"Association Mining with Parallel Computing using Cloudera distribution",
+      "project-scale":"Minor Project",
+      "date":"Oct 2019 – Nov 2019",
+      "link-to-code":"https://github.com/DhavalBagal/Association_Mining_Using_Parallel_Computing",
+      "link-to-demo":"#",
+      "description":"Considering huge organizations wherein the size of the data coming is huge, it becomes impossible to process all of this data on a single machine. Hence the project employs the map-reduce concept using the pyspark framework. Using map-reduce, the processing of a huge dataset in case of association mining can be parallelized over a cluster. Given a set of products, the system returns the associations among them along with their confidence values. The discovery of these associations can help retailers develop marketing strategies by gaining insight into which items are frequently purchased together by customers."
+    },
+
+    "proj-6":
+    {
+      "title":"KnowMore - Your Secondary Brain",
+      "project-scale":"Mid-Level Project",
+      "date":"Feb 2020 – Apr 2020",
+      "link-to-code":"https://github.com/DhavalBagal/KnowMore-Your-Secondary-Brain",
+      "link-to-demo":"#",
+      "description":"While researching any topic on the internet, people generally end up opening multiple tabs and curate information from various links that they find useful. However, retrieving the source of this curated information later is comparable to finding a needle in the haystack. KnowMore is designed to ease and expedite this task with its chrome extension and its search engine. While browsing on the internet, if the chrome extension for KnowMore is switched on, the user can simply select any text on a website and copy it. This text along with its source link is then saved into the database. With KnowMore search engine, the user can later retrieve the specific information along with its source link."
+    },
+
+    "proj-7":
+    {
+      "title":"Handwritten Digit Classification with Neural Network built completely from scratch",
+      "project-scale":"Minor Project",
+      "date":"Apr 2020 - Apr 2020",
+      "link-to-code":"https://github.com/DhavalBagal/Neural-Network-From-Scratch",
+      "link-to-demo":"#",
+      "description":"The project contains classes using which you can build a custom neural network that is capable of being trained on both the CPU as well as GPU. For testing purposes, the MNIST dataset was used to train a 3-Layered NN Architecture."
+    },
+
+    "proj-8":
+    {
+      "title":"Sahara: A Stanchion for the Visually Impaired",
+      "project-scale":"Major Project",
+      "date":"Jun 2019 – May 2020",
+      "link-to-code":"https://github.com/DhavalBagal/Sahara-System-For-Aiding-Visually-Impaired",
+      "link-to-demo":"https://drive.google.com/file/d/1L3ucvkM_9sAC17wBYmfSvXxakVbETMXP/view?usp=sharing",
+      "description":"The project entails a small, compact, internet-less, cost-efficient, portable device that interacts with an android application and collectively provides features that aid the visually impaired people in their daily chores. The features provided are currency identification along with counting, supermarket bill reading, basic text reading, text summarization to get an essence of a long text excerpt, business-card reading, color identification. The android application is merely used as an interface that works on voice and screen taps in its entirety. The processing part is carried out by the device which is a single-board computer (Raspberry Pi 4)."
+    },
+
+    "proj-9":
+    {
+      "title":"Name Generator using Gated Recurrent Unit Network",
+      "project-scale":"Minor Project",
+      "date":"Jun 2020 - Jun 2020",
+      "link-to-code":"https://github.com/DhavalBagal/Name-Generator",
+      "link-to-demo":"#",
+      "description":"The project concerns name generation using Gated Recurrent Unit Networks. The dataset consists of 1536 names of dinosaur species. The model was trained using Pytorch. Using sampling technique, new names are generated by the network each time the program is run."
+    },
+
+    "proj-10":
+    {
+      "title":"Intel Image Classification using ResNet50",
+      "project-scale":"Minor Project",
+      "date":"Jun 2020 - Jun 2020",
+      "link-to-code":"https://github.com/DhavalBagal/Intel-Image-Classification-using-Resnet50.git",
+      "link-to-demo":"#",
+      "description":"The goal is to classify images under 6 categories - buildings, forest, glacier, mountain, sea, street. The code consists of a ResNet50 model which is built layer by layer using TensorFlow Keras."
+    },
+
+    "proj-11":
+    {
+      "title":"Chatbot using LSTM Network",
+      "project-scale":"Minor Project",
+      "date":"Jun 2020 - Jun 2020",
+      "link-to-code":"https://github.com/DhavalBagal/Simple_Chatbot_Using_Intent_Classification.git",
+      "link-to-demo":"#",
+      "description":"This is a simple chatbot built using Python TensorFlow Keras and Flask. It entails LSTM architecture which is used for Intent classification. The trained model is then served using Flask."
+    }
+  },
+
+  "awards":
+  {
+    "award-1":
+    {
+      "title":"First Ranker for the subject 'Structured Programming Approach'",
+      "issuer":"V.E.S Institute Of Technology",
+      "date":"Mar 2017",
+      "description":""
+    },
+
+    "award-2":
+    {
+      "title":"Winner of Buzzpro Technical Paper Contest",
+      "issuer":"V.E.S Institute Of Technology",
+      "date":"Mar 2019",
+      "description":"Presented the technical paper titled 'Librany - A Face Recognition and QR Code Technology based Smart Library System'."
+    },
+
+    "award-3":
+    {
+      "title":"First Runner up at Pradarshan Project Exhibition",
+      "issuer":"V.E.S Institute Of Technology",
+      "date":"Mar 2019",
+      "description":"Presented the project titled 'Librany - A Face Recognition and QR Code Technology based Smart Library System' in the exhibition."
+    },
+
+    "award-4":
+    {
+      "title":"Grantee of MU Minor Research Grant worth INR 30k",
+      "issuer":"University of Mumbai",
+      "date":"Mar 2020",
+      "description":"Won a grant of INR 30k for the final year B.E project titled 'Sahara: A stanchion for the visually impaired' from the University of Mumbai."
+    }
+  },
+
+  "certifications":
+  {
+    "cert-1":
+    {
+      "title":"Machine Learning",
+      "issuer":"Coursera",
+      "date":"Nov 2019",
+      "link-to-verify":"https://www.coursera.org/account/accomplishments/verify/N6B4BVH359JP"
+    },
+
+    "cert-2":
+    {
+      "title":"Neural Networks and Deep Learning",
+      "issuer":"Coursera",
+      "date":"Apr 2020",
+      "link-to-verify":"https://www.coursera.org/account/accomplishments/certificate/JDE5LPGDJFJK"
+    },
+
+    "cert-3":
+    {
+      "title":"Structuring Machine Learning Projects",
+      "issuer":"Coursera",
+      "date":"May 2020",
+      "link-to-verify":"https://www.coursera.org/account/accomplishments/certificate/LZ3W8WQ2H9SB"
+    },
+
+    "cert-4":
+    {
+      "title":"Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+      "issuer":"Coursera",
+      "date":"May 2020",
+      "link-to-verify":"https://www.coursera.org/account/accomplishments/certificate/TNYWXFYV42MB"
+    },
+
+    "cert-5":
+    {
+      "title":"Convolutional Neural Networks",
+      "issuer":"Coursera",
+      "date":"May 2020",
+      "link-to-verify":"https://www.coursera.org/account/accomplishments/certificate/4NGGK94PKCFV"
+    },
+
+    "cert-6":
+    {
+      "title":"Sequence Models",
+      "issuer":"Coursera",
+      "date":"Jun 2020",
+      "link-to-verify":"https://www.coursera.org/account/accomplishments/certificate/8SA5NJQFBA94"
+    }
+    
+  },
+  "scores":
+  {
+    "score-1":
+    {
+      "title":"B.E Sem 7 (Computer Engineering)",
+      "date":"Nov 2019",
+      "score":"8.42",
+      "out-of":"10"
+    },
+
+    "score-2":
+    {
+      "title":"B.E Sem 6 (Computer Engineering)",
+      "date":"May 2019",
+      "score":"9.69",
+      "out-of":"10"
+    },
+
+    "score-3":
+    {
+      "title":"B.E Sem 5 (Computer Engineering)",
+      "date":"Dec 2018",
+      "score":"9.41",
+      "out-of":"10"
+    },
+
+    "score-4":
+    {
+      "title":"B.E Sem 4 (Computer Engineering)",
+      "date":"May 2018",
+      "score":"9.56",
+      "out-of":"10"
+    },
+
+    "score-5":
+    {
+      "title":"B.E Sem 3 (Computer Engineering)",
+      "date":"Nov 2017",
+      "score":"9.69",
+      "out-of":"10"
+    },
+
+    "score-6":
+    {
+      "title":"B.E Sem 2 (Computer Engineering)",
+      "date":"May 2017",
+      "score":"9.70",
+      "out-of":"10"
+    },
+
+    "score-7":
+    {
+      "title":"B.E Sem 1 (Computer Engineering)",
+      "date":"Dec 2016",
+      "score":"9.04",
+      "out-of":"10"
+    }
+  },
+
+  "skills":
+  {
+    "skill-1":
+    {
+      "title":"Android App Development",
+      "score":"5",
+      "out-of":"10" 
+    },
+
+    "skill-2":
+    {
+      "title":"Deep Learning",
+      "score":"7",
+      "out-of":"10" 
+    },
+
+    "skill-3":
+    {
+      "title":"TensorFlow, Keras",
+      "score":"6",
+      "out-of":"10" 
+    },
+
+    "skill-4":
+    {
+      "title":"PyTorch framework",
+      "score":"6",
+      "out-of":"10" 
+    },
+
+    "skill-5":
+    {
+      "title":"Javascript",
+      "score":"8",
+      "out-of":"10" 
+    },
+
+    "skill-6":
+    {
+      "title":"HTML, CSS",
+      "score":"9",
+      "out-of":"10" 
+    },
+
+    "skill-7":
+    {
+      "title":"Python",
+      "score":"9",
+      "out-of":"10" 
+    }
+  }
+}
