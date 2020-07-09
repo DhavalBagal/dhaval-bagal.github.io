@@ -1502,11 +1502,8 @@
                 for (var j = 0; j < elems.length; j++) {
                 if (i <= nums[j]) {
                     counter = i.toString();
-                    if (isNumFloat[j]) elems[j].innerText = counter + ".00";
-                    else {
-                    if (counter.length == 1) elems[j].innerText = "0" + counter;
-                    else if (counter.length == 2) elems[j].innerText = counter;
-                    }
+                    elems[j].innerText = counter;
+                    
                 }
                 }
                 if (i > max) {
